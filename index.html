@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kumia</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="ChatGPT Image Jun 18, 2025, 10_52_04 PM.png" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="index.html" class="logo">
+                <img src="ChatGPT Image Jun 18, 2025, 10_52_04 PM.png" alt="Logo" />
+            </a>
+            <input type="search" id="search-bar" placeholder="Search products..." />
+            <div class="user-icons">
+                <a href="signin.html" title="Sign In">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="user-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.88 6.196 9 9 0 015.12 17.804z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                </a>
+                <a href="signup.html" title="Sign Up" class="signup-link">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="slides">
+            <div class="slide active" style="background-image: url('https://via.placeholder.com/900x300?text=Promotion+1');"></div>
+            <div class="slide" style="background-image: url('https://via.placeholder.com/900x300?text=Promotion+2');"></div>
+            <div class="slide" style="background-image: url('https://via.placeholder.com/900x300?text=Promotion+3');"></div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </section>
+
+    <section class="categories">
+        <h2>Categories</h2>
+        <div class="category-list">
+            <button class="category-btn" data-category="electronics">Electronics</button>
+            <button class="category-btn" data-category="fashion">Fashion</button>
+            <button class="category-btn" data-category="home">Home & Living</button>
+            <button class="category-btn" data-category="beauty">Beauty</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+        </div>
+    </section>
+
+    <main>
+        <section class="product-grid" id="product-grid">
+            <!-- Product cards will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jumia-like E-commerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>
